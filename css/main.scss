@@ -1,0 +1,36 @@
+@import "reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:opsz,wght@9..144,700&family=Karla&family=Kumbh+Sans:wght@300&family=Montserrat&family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #6f2cff;
+  --secondary-color: #20003c;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+  line-height: 1;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  [class*="__container"] {
+    max-width: none;
+    padding: 0px 15px;
+  }
+}
