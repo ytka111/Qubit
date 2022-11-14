@@ -1,121 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qubit.</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Qubit.</title>
-	<link rel="stylesheet" href="./css/main.css" />
-</head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <main class="page">
+        <section class="products">
+          <div class="products__container">
+            <h2 class="products__title title">All the power. Easy to use.</h2>
+            <div class="products__text">
+              By collaborating with real ecommerce teams we've built the
+              next-gen personalization tool. No code. No clunkiness.
+            </div>
+            <div class="products__image">
+              <img src="./images/products/product.png" alt="" class="" />
+            </div>
 
-<body>
-	<div class="wrapper">
-		<header class="header"></header>
-		<main class="page">
-			<section class="ecosystem">
-				<div class="ecosystem__wrapper">
-					<div class="ecosystem__content">
-						<h2 class="ecosystem__title title">A connected ecosystem.</h2>
-						<p class="ecosystem__text">The Qubit personalization platform is designed with enterprise and high-growth
-							businesses in mind.</p>
-						<p class="ecosystem__text">Our open ecosystem approach means you can connect any data source and deliver
-							personalization across any channel.</p>
-						<button class="ecosystem__button button">See our integrations</button>
-					</div>
-					<div class="ecosystem__image">
-						<img src="./images/ecosystem/Rectangle.png" alt="qubit">
-					</div>
-				</div>
-			</section>
-			<section class="offer">
-				<h2 class="offer__title title">Book a demo today.</h2>
-				<form action="#" method="POST" class="offer__form form">
-					<input type="email" class="form__input" placeholder="Enter your email">
-					<button type="submit" class="form__button button">Book a demo</button>
-				</form>
-			</section>
-			<div class="social">
-				<div class="social__image"><img src="./images/social/Rectangle.png" alt="attachment"></div>
-				<div class="social__text">Connect with us</div>
-				<ul class="social__menu">
-					<li class="social__item"><a href="#" class="social__link"><img src="./images/social/01.svg" alt=""></a></li>
-					<li class="social__item"><a href="#" class="social__link"><img src="./images/social/02.svg" alt=""></a></li>
-					<li class="social__item"><a href="#" class="social__link"><img src="./images/social/03.svg" alt=""></a></li>
-					<li class="social__item"><a href="#" class="social__link"><img src="./images/social/04.svg" alt=""></a></li>
-					<li class="social__item"><a href="#" class="social__link"><img src="./images/social/05.svg" alt=""></a></li>
-				</ul>
-			</div>
-		</main>
-		<footer class="footer">
-			<div class="footer__inner">
-				<div class="footer__top">
-					<div class="footer__menu">
-						<h3 class="footer__title">Featured Capabilities</h3>
-						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="footer__link">A/B testing</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Abandonment recovery</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Customer insights</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Customer polling and feedback</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Customer segmentation</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Data collection</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Ecommerce merchandising</a></li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<h3 class="footer__title _none">Featured</h3>
-						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="footer__link">Custom machine learning</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Journey Personalization</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Mobile app personalization</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Cross-channel personalization</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Social proofing</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Website personalization</a></li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<h3 class="footer__title">Products</h3>
-						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="footer__link">1:1 Product recommendations</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">1:1 Product badging</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">1:1 Journey personalization</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Personalized content</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Product insights</a></li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<h3 class="footer__title">Resources</h3>
-						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="footer__link">Resources</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Customers</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Qubit Blog.</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Glossary</a></li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<h3 class="footer__title">Company</h3>
-						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="footer__link">Why Qubit?</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">About us</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Press</a></li>
-							<li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<h3 class="footer__title _fw400">Working with us</h3>
-						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="footer__link">Legal</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footer__bottom">
-				<div class="footer__logo"><img src="./images/footer/logo.svg" alt="logo"></div>
-				<div class="footer__copy">&copy; 2021 Qubit. All rights reserved.</div>
-				<div class="footer__icon"><img src="./images/footer/icon.svg" alt="icon"></div>
-			</div>
-		</footer>
-	</div>
-</body>
-
+            <div class="products__actions">
+              <button class="products__button button">See products</button>
+              <button class="products__button button">Book a demo</button>
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="services__container">
+            <h2 class="services__title title">What you can do with Qubit.</h2>
+            <div class="services__items">
+              <article class="services__item">
+                <div class="item-service__icon">
+                  <img src="./images/services/first.svg" alt="" />
+                </div>
+                <h4 class="item-service__title">1:1 Product recommendations</h4>
+                <div class="item-service__text">
+                  Use deep learning recommendations to engage customers in
+                  seconds.
+                </div>
+              </article>
+              <article class="services__item">
+                <div class="item-service__icon">
+                  <img src="./images/services/second.svg" alt="" />
+                </div>
+                <h4 class="item-service__title">1:1 Product badging</h4>
+                <div class="item-service__text">
+                  Guide discovery with personalized product badging. Push sales
+                  with social proofing.
+                </div>
+              </article>
+              <article class="services__item">
+                <div class="item-service__icon">
+                  <img src="./images/services/third.svg" alt="" />
+                </div>
+                <h4 class="item-service__title">Personalized content</h4>
+                <div class="item-service__text">
+                  Your customers are unique. Present them with content that
+                  shows you know them.
+                </div>
+              </article>
+            </div>
+            <div class="services__items"></div>
+            <div class="services__items">
+              <article class="services__item">
+                <div class="item-service__icon">
+                  <img src="./images/services/four.svg" alt="" />
+                </div>
+                <h4 class="item-service__title">Product insights</h4>
+                <div class="item-service__text">
+                  A platform packed with insights helping you discover the hard
+                  hitting things you can do next.
+                </div>
+              </article>
+              <article class="services__item">
+                <div class="item-service__icon">
+                  <img src="./images/services/five.svg" alt="" />
+                </div>
+                <h4 class="item-service__title">CommerceAI</h4>
+                <div class="item-service__text">
+                  Your customer's behavioral data is telling you a story. Use
+                  predictive and affinity based algorithms to serve them better.
+                </div>
+              </article>
+              <article class="services__item">
+                <div class="item-service__icon">
+                  <img src="./images/services/six.svg" alt="" />
+                </div>
+                <h4 class="item-service__title">Platform integrations</h4>
+                <div class="item-service__text">
+                  Connect Qubit to any tool via API. Import data or trigger an
+                  experience on any platform.
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="brands">
+          <div class="brands__container">
+            <h2 class="brands__title title">Trusted by leading brands.</h2>
+            <div class="brands__items">
+              <article class="brands__item">
+                <div class="item-brands__icon">
+                  <img src="./images/brands/first.png" alt="" />
+                </div>
+                <div class="item-brands__logo">
+                  <img src="./images/brands/clinque.svg" alt="" />
+                </div>
+                <div class="item-brands__text">
+                  Clinique builds relationships with millions of customers each
+                  year.
+                </div>
+              </article>
+              <article class="brands__item">
+                <div class="item-brands__icon">
+                  <img src="./images/brands/second.png" alt="" />
+                </div>
+                <div class="item-brands__logo">
+                  <img src="./images/brands/river_island.svg" alt="" />
+                </div>
+                <div class="item-brands__text">
+                  River Island transforms the customer experience with
+                  personalization.
+                </div>
+              </article>
+              <article class="brands__item">
+                <div class="item-brands__icon">
+                  <img src="./images/brands/third.png" alt="" />
+                </div>
+                <div class="item-brands__logo">
+                  <img src="./images/brands/mm.svg" alt="" />
+                </div>
+                <div class="item-brands__text">
+                  MandM Direct drives increase in revenue with deep learning
+                  recs.
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="specialize">
+          <div class="specialize__container">
+            <h2 class="specialize__title title">
+              We specialize in your industry.
+            </h2>
+            <div class="specialize__text">
+              Learn how we are delivering personalization at scale across
+              sectors.
+            </div>
+            <div class="specialize__items">
+              <article class="specialize__item">
+                <div class="item-specialize__header">
+                  <div class="item-specialize__icon">
+                    <img src="./images/specialize/first.svg" alt="" />
+                  </div>
+                  <h4 class="item-specialize__title">Beauty and cosmetics</h4>
+                </div>
+                <div class="item-specialize__text">
+                  Discover relevant products. Push samples. Upsell and
+                  replenish.
+                </div>
+                <div class="item-specialize__label">
+                  Explore our solutions for beauty and cosmetics.
+                </div>
+              </article>
+              <article class="specialize__item">
+                <div class="item-specialize__header">
+                  <div class="item-specialize__icon">
+                    <img src="./images/specialize/second.svg" alt="" />
+                  </div>
+                  <h4 class="item-specialize__title">Fashion</h4>
+                </div>
+                <div class="item-specialize__text">
+                  Supercharge merchandising. Reach your best customers.
+                </div>
+                <div class="item-specialize__label">
+                  Explore our solutions for fashion.
+                </div>
+              </article>
+            </div>
+            <div class="specialize__items">
+              <article class="specialize__item">
+                <div class="item-specialize__header">
+                  <div class="item-specialize__icon">
+                    <img src="./images/specialize/third.svg" alt="" />
+                  </div>
+                  <h4 class="item-specialize__title">Luxury</h4>
+                </div>
+                <div class="item-specialize__text">
+                  Drive brand experience online. Look after your VIPs.
+                </div>
+                <div class="item-specialize__label">
+                  Explore our solutions for luxury.
+                </div>
+              </article>
+              <article class="specialize__item">
+                <div class="item-specialize__header">
+                  <div class="item-specialize__icon">
+                    <img src="./images/specialize/four.svg" alt="" />
+                  </div>
+                  <h4 class="item-specialize__title">Airlines</h4>
+                </div>
+                <div class="item-specialize__text">
+                  Increase loyalty. Boost ancillary sales. Capture every
+                  opportunity.
+                </div>
+                <div class="item-specialize__label">
+                  Explore our solutions for airlines.
+                </div>
+              </article>
+            </div>
+            <div class="specialize__items">
+              <article class="specialize__item">
+                <div class="item-specialize__header">
+                  <div class="item-specialize__icon">
+                    <img src="./images/specialize/five.svg" alt="" />
+                  </div>
+                  <h4 class="item-specialize__title">Travel & tourism</h4>
+                </div>
+                <div class="item-specialize__text">
+                  Be persuasive. Inspire travellers. Drive revenue.
+                </div>
+                <div class="item-specialize__label">
+                  Explore our solutions for travel and tourism.
+                </div>
+              </article>
+              <article class="specialize__item">
+                <div class="item-specialize__header">
+                  <div class="item-specialize__icon">
+                    <img src="./images/specialize/six.svg" alt="" />
+                  </div>
+                  <h4 class="item-specialize__title">Online betting</h4>
+                </div>
+                <div class="item-specialize__text">
+                  Bring events to life. Personalize in real time. Be
+                  responsible.
+                </div>
+                <div class="item-specialize__label">
+                  Explore our solutions for online betting.
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="ecosystem">
+          <div class="ecosystem__wrapper">
+            <div class="ecosystem__content">
+              <h2 class="ecosystem__title title">A connected ecosystem.</h2>
+              <p class="ecosystem__text">
+                The Qubit personalization platform is designed with enterprise
+                and high-growth businesses in mind.
+              </p>
+              <p class="ecosystem__text">
+                Our open ecosystem approach means you can connect any data
+                source and deliver personalization across any channel.
+              </p>
+              <button class="ecosystem__button button">
+                See our integrations
+              </button>
+            </div>
+            <div class="ecosystem__image">
+              <img src="./images/ecosystem/Rectangle.png" alt="qubit" />
+            </div>
+          </div>
+        </section>
+        <section class="offer">
+          <h2 class="offer__title title">Book a demo today.</h2>
+          <form action="#" method="POST" class="offer__form form">
+            <input
+              type="email"
+              class="form__input"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="form__button button">
+              Book a demo
+            </button>
+          </form>
+        </section>
+        <div class="social">
+          <div class="social__image">
+            <img src="./images/social/Rectangle.png" alt="attachment" />
+          </div>
+          <div class="social__text">Connect with us</div>
+          <ul class="social__menu">
+            <li class="social__item">
+              <a href="#" class="social__link"
+                ><img src="./images/social/01.svg" alt=""
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link"
+                ><img src="./images/social/02.svg" alt=""
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link"
+                ><img src="./images/social/03.svg" alt=""
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link"
+                ><img src="./images/social/04.svg" alt=""
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link"
+                ><img src="./images/social/05.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__inner">
+          <div class="footer__top">
+            <div class="footer__menu">
+              <h3 class="footer__title">Featured Capabilities</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">A/B testing</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Abandonment recovery</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Customer insights</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link"
+                    >Customer polling and feedback</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Customer segmentation</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Data collection</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Ecommerce merchandising</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu">
+              <h3 class="footer__title _none">Featured</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Custom machine learning</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Journey Personalization</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link"
+                    >Mobile app personalization</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link"
+                    >Cross-channel personalization</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Social proofing</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Website personalization</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu">
+              <h3 class="footer__title">Products</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link"
+                    >1:1 Product recommendations</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">1:1 Product badging</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link"
+                    >1:1 Journey personalization</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Personalized content</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Product insights</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu">
+              <h3 class="footer__title">Resources</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Resources</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Customers</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Qubit Blog.</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Glossary</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu">
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Why Qubit?</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">About us</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Careers</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Press</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu">
+              <h3 class="footer__title _fw400">Working with us</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Legal</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__logo">
+            <img src="./images/footer/logo.svg" alt="logo" />
+          </div>
+          <div class="footer__copy">
+            &copy; 2021 Qubit. All rights reserved.
+          </div>
+          <div class="footer__icon">
+            <img src="./images/footer/icon.svg" alt="icon" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
